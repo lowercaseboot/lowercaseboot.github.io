@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>lowercaseboot</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font: 16px/1.6 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+            "Liberation Mono", "Courier New", monospace;
+
+      background:
+        linear-gradient(
+          rgba(20, 8, 16, 0.85),
+          rgba(20, 8, 16, 0.85)
+        ),
+        url("images/bg.png") center / cover no-repeat fixed;
+
+      color: #f2e4ec;
+    }
+
+    .wrap {
+      max-width: 720px;
+      padding: 72px 20px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background:
+        linear-gradient(
+          rgba(30, 12, 24, 0.9),
+          rgba(30, 12, 24, 0.9)
+        ),
+        url("images/bg.png") center / 800px repeat;
+
+      border-radius: 18px;
+      padding: 40px;
+    }
+
+    .pfp {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+      margin-bottom: 18px;
+      border: 1px solid rgba(255, 190, 220, 0.25);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 30px;
+      font-weight: 600;
+      color: #f7edf3;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .tagline {
+      color: #f0c9dd;
+      line-height: 1.5;
+    }
+
+    .sub {
+      color: #d9a9c2;
+      margin-top: 6px;
+    }
+
+    ul {
+      margin: 24px 0 0;
+      padding-left: 18px;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    a {
+      color: #f4b6d4;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <div class="card">
+      <img src="images/pfp.png" alt="lowercaseboot" class="pfp">
+
+      <h1>lowercaseboot</h1>
+      <p class="tagline">Articles, threads, G2M, Socials, tier-7 KOL things.</p>
+      <p class="sub">Mostly crypto. Occasionally coherent.</p>
+
+      <ul>
+        <li><a href="https://x.com/lowercaseboot" rel="me">X</a></li>
+        <li><a href="https://t.me/lowercaseboot" rel="me">Telegram</a></li>
+        <li><a href="https://t.me/basedbootalpha">My trading journal</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
